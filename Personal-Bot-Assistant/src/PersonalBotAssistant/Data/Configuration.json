@@ -1,0 +1,11 @@
+﻿{
+    "Bot": {
+        "GraphFile": "Data\\Main.graph",
+        "StateFile": "Data\\Bot.state"
+    },
+  "Telegram": {
+    "ApiKey": "1083041772:AAGR-b4LDmLeyppBUcCk14JVTae-JVjICao",
+    "ExceptionGroupId": 0,
+    "UserGroupId": 0
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "Version": 3,
+  "RootId": "de84c341-5072-4235-b07d-53bf8ace7fb1",
+  "States": [
+    {
+      "Id": "9534bdc6-95a8-4ece-95ea-703e55c82a69",
+      "Alias": null,
+      "ContentId": "c4189670-51d1-4fb3-bbec-d267c79dbe2e",
+      "Features": [
+        "4c09a331-0062-4139-b467-8881dc6474f6",
+        "c3bdca74-c24f-43f7-a289-4c33023e036c",
+        "4364e244-3b82-439b-9f34-58a87eb277bf"
+      ],
+      "DeleteMessageAfterAnswer": false
+    }
+  ],
+  "FunctionStates": [
+    {
+      "Id": "de84c341-5072-4235-b07d-53bf8ace7fb1",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "FunctionName": "Авторизация",
+      "Features": [
+        "81248842-9140-439f-832e-024324ebe1e8",
+        "e887274f-109a-4db5-a39f-0b513f0d49fd"
+      ]
+    }
+  ],
+  "AnotherGraphStates": [
+    {
+      "Id": "73c4c7ad-b916-4816-99fd-bc7b18e7a771",
+      "GraphPath": "Welcom.graph",
+      "SwitchCase": "root",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "Features": []
+    },
+    {
+      "Id": "2a4ea673-c0b6-4871-b4e7-ae74c87a79e1",
+      "GraphPath": "Pomodoro.graph",
+      "SwitchCase": "root",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "Features": []
+    },
+    {
+      "Id": "fd3d5cbb-c23d-4cab-b301-4c8c6fd620db",
+      "GraphPath": "DailyPlanner.graph",
+      "SwitchCase": "root",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "Features": []
+    },
+    {
+      "Id": "af2a252d-5e43-41a9-be79-3fa007cf423e",
+      "GraphPath": "BotStatus.graph",
+      "SwitchCase": "root",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "Features": []
+    }
+  ],
+  "MessageContents": [
+    {
+      "Id": "c4189670-51d1-4fb3-bbec-d267c79dbe2e",
+      "Text": "Главное меню",
+      "DisableWebPagePreview": false
+    }
+  ],
+  "MediaCaptionContents": [],
+  "MediaWithoutCaptionContents": [],
+  "MediaGroupContents": [],
+  "AnswerButtonFeatures": [
+    {
+      "Id": "4c09a331-0062-4139-b467-8881dc6474f6",
+      "Text": "Pomidoro",
+      "Arguments": null,
+      "StateId": "2a4ea673-c0b6-4871-b4e7-ae74c87a79e1",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "c3bdca74-c24f-43f7-a289-4c33023e036c",
+      "Text": "Ежедневник",
+      "Arguments": null,
+      "StateId": "fd3d5cbb-c23d-4cab-b301-4c8c6fd620db",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 1,
+      "Column": 0
+    },
+    {
+      "Id": "4364e244-3b82-439b-9f34-58a87eb277bf",
+      "Text": "Состояние бота",
+      "Arguments": null,
+      "StateId": "af2a252d-5e43-41a9-be79-3fa007cf423e",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 2,
+      "Column": 0
+    }
+  ],
+  "ChangeVariableFeatures": [],
+  "SwitchCases": [
+    {
+      "Id": "8175f4df-94c6-4814-8925-f23d89c3e5b8",
+      "Case": "root",
+      "StateId": "de84c341-5072-4235-b07d-53bf8ace7fb1",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "81248842-9140-439f-832e-024324ebe1e8",
+      "Case": "Да",
+      "StateId": "9534bdc6-95a8-4ece-95ea-703e55c82a69",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": true
+    },
+    {
+      "Id": "e887274f-109a-4db5-a39f-0b513f0d49fd",
+      "Case": "Нет",
+      "StateId": "73c4c7ad-b916-4816-99fd-bc7b18e7a771",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": true
+    }
+  ],
+  "TextRequestFeatures": [],
+  "ExpressionFeatures": [],
+  "WaitAndTranzitFeatures": []
+}

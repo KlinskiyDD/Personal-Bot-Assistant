@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalBotAssistant", "src\PersonalBotAssistant\PersonalBotAssistant.csproj", "{6B16FEF0-3FEA-4FD5-A219-858995C01FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalBotAssistant.Logic", "src\PersonalBotAssistant.Logic\PersonalBotAssistant.Logic.csproj", "{3D8C5A27-6EDA-4AD1-91E7-134D114B49F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{862088BD-9D25-4654-9D67-8966B003E62D}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		install_or_update.cmd = install_or_update.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B16FEF0-3FEA-4FD5-A219-858995C01FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B16FEF0-3FEA-4FD5-A219-858995C01FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B16FEF0-3FEA-4FD5-A219-858995C01FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B16FEF0-3FEA-4FD5-A219-858995C01FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8C5A27-6EDA-4AD1-91E7-134D114B49F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8C5A27-6EDA-4AD1-91E7-134D114B49F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8C5A27-6EDA-4AD1-91E7-134D114B49F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8C5A27-6EDA-4AD1-91E7-134D114B49F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

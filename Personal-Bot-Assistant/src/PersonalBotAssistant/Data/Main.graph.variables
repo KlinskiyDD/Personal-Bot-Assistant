@@ -1,0 +1,19 @@
+// {Main.graph}
+
+// AnotherGraphStates:
+// "Welcom.graph"
+// "Pomodoro.graph"
+// "DailyPlanner.graph"
+// "BotStatus.graph"
+
+// SwitchCases:
+// "root"
+// "Да"
+// "Нет"
+
+botAdapter.Functions.Add("Авторизация", (userId, message) =>
+{        
+    // -> SwitchCase "root"
+    return "Да";//1 times
+    return "Нет";//1 times
+});

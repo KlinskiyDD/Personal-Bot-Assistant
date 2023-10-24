@@ -1,0 +1,16 @@
+// {Welcom.graph}
+
+// TextRequestFeatures - set:
+// "UserName"
+
+// MessageContents - get:
+// "UserName"
+
+// AnotherGraphStates:
+// "Main.graph"
+
+// SwitchCases:
+// "root"
+
+// WaitAndTranzitFeatures:
+// ""

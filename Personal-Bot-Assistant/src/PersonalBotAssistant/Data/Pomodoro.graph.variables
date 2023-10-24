@@ -1,0 +1,71 @@
+// {Pomodoro.graph}
+
+// TextRequestFeatures - set:
+// "Время отдыха"
+// "Время работы"
+
+// ChangeVariableFeatures - set:
+// "Кнопка помидора"
+// "Время отдыха"
+// "Время работы"
+// "Статус помидора"
+
+// AnswerButtonFeatures - get:
+// "Кнопка помидора"
+
+// MessageContents - get:
+// "Время работы"
+// "Время отдыха"
+// "Статус помидора"
+// "оставшиеся время"
+
+// AnotherGraphStates:
+// "Main.graph"
+
+// SwitchCases:
+// "root"
+// "Да"
+// "Нет"
+// "Обнуление"
+// "Плохое время отдыха"
+// "Плохое время работы"
+// ""
+
+// WaitAndTranzitFeatures:
+// ""
+
+botAdapter.Functions.Add("Проверка настроек", (userId, message) =>
+{        
+    // -> SwitchCase "root"
+    // -> TextRequest "Время отдыха"
+    // -> TextRequest "Время работы"
+    return "Да";//2 times
+    return "Нет";//2 times
+});
+
+botAdapter.Functions.Add("Сброс настроек", (userId, message) =>
+{        
+    // -> AnswerButton "Назад"
+    // -> AnswerButton "Сбросить настройки"
+    return "";//1 times
+});
+
+botAdapter.Functions.Add("Ввод времени", (userId, message) =>
+{        
+    // -> AnswerButton "Ввести еще раз"
+    return "Плохое время отдыха";//1 times
+    return "Плохое время работы";//1 times
+    return "Обнуление";//1 times
+});
+
+botAdapter.Functions.Add("Вкл-Выкл помидор", (userId, message) =>
+{        
+    // -> AnswerButton "{Кнопка помидора}"
+    return "Да";//1 times
+});
+
+botAdapter.Functions.Add("Таймер обновление", (userId, message) =>
+{        
+    // -> WaitAndTranzit ""
+    return "Да";//1 times
+});

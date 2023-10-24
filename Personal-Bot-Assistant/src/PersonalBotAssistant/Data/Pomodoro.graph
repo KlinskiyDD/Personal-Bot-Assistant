@@ -1,0 +1,554 @@
+{
+  "Version": 3,
+  "RootId": "78d206e7-fc90-453a-8f48-cfd7bf7abb5b",
+  "States": [
+    {
+      "Id": "388bc3e8-db22-4fb4-ab94-fabcadf5125f",
+      "Alias": null,
+      "ContentId": "4636fbe7-09b2-4bf6-a763-9592ab6ee73f",
+      "Features": [
+        "0da20773-51ac-47c4-a9c4-af471e6e14e4",
+        "a5facfe8-e4ae-43a2-80fe-1e92cee94d50",
+        "610ac16b-138c-4037-ac9c-1015c100b3d5",
+        "823ba5b1-b7e9-4e58-8a28-6a552f713023"
+      ],
+      "DeleteMessageAfterAnswer": false
+    },
+    {
+      "Id": "9a854b0a-6d83-49ba-988e-ed2a0321b157",
+      "Alias": null,
+      "ContentId": "8fb1f799-721f-4734-b771-6897534c93b4",
+      "Features": [
+        "a662469c-6d18-4c3e-92a3-9ab4ea7c026a"
+      ],
+      "DeleteMessageAfterAnswer": false
+    },
+    {
+      "Id": "944b88c3-f857-477c-80b6-32add43ac6b6",
+      "Alias": null,
+      "ContentId": "00c84023-1f95-4df9-94b2-4bb7e3100c98",
+      "Features": [
+        "4dc55fd0-534c-4f8b-ba8e-cc648b9c1a50",
+        "ee3a39cd-326d-476f-bd7c-8b338491d735",
+        "dc2963c2-066a-4f58-86fd-e9a68595bf49",
+        "3fe7c1db-c675-4ee2-8c00-b381e8ac050c"
+      ],
+      "DeleteMessageAfterAnswer": false
+    },
+    {
+      "Id": "34f9b464-fe17-4d4a-89bf-d9564d9e768f",
+      "Alias": null,
+      "ContentId": "ed4f5caa-7d15-4d8a-8c0c-ef7eb5320b95",
+      "Features": [
+        "d0a17c27-1f3e-4ff1-9824-4806a32ae6c1",
+        "5b97d350-6ec9-427d-b4bd-a51e25a45e46"
+      ],
+      "DeleteMessageAfterAnswer": false
+    },
+    {
+      "Id": "789d1f3d-6869-4b03-8845-a8e5d7e3c4d6",
+      "Alias": null,
+      "ContentId": "dfd0c5de-5c62-443a-a63f-fdcf48bafeea",
+      "Features": [
+        "842250e4-4796-4a85-b769-235eb3dcc411",
+        "5b97d350-6ec9-427d-b4bd-a51e25a45e46"
+      ],
+      "DeleteMessageAfterAnswer": false
+    },
+    {
+      "Id": "27ceb3b4-f04a-4979-9f1e-68c36669ea05",
+      "Alias": null,
+      "ContentId": "8b09105b-3add-4eee-8a96-54ecc5d2b4db",
+      "Features": [
+        "5ae350ab-225d-4450-a9e7-7e6cc38c1ff0",
+        "0015966a-efa5-485a-b18f-6bfa52799616"
+      ],
+      "DeleteMessageAfterAnswer": false
+    },
+    {
+      "Id": "a9718007-ca63-4cbc-bd71-a89bf4ef3d34",
+      "Alias": null,
+      "ContentId": "13e5f612-451f-4c9b-b146-9ef5c83a1091",
+      "Features": [
+        "0e36777f-58dc-4926-9dc8-eb3e95f70013"
+      ],
+      "DeleteMessageAfterAnswer": false
+    },
+    {
+      "Id": "1cc177a4-4806-4ed1-8dea-753e1484ce40",
+      "Alias": null,
+      "ContentId": "7af6b44f-0f07-4b81-887d-4d40f84853b2",
+      "Features": [
+        "f1c65ed6-e5d2-4bd2-9159-eb3f8975af5f",
+        "fac0b961-7d3c-4b82-bf50-8dfa1a60c868",
+        "8836becd-3775-422b-a05c-da666c802d5c",
+        "0ebc545a-62c9-4394-999d-8d189bc2767c"
+      ],
+      "DeleteMessageAfterAnswer": false
+    }
+  ],
+  "FunctionStates": [
+    {
+      "Id": "78d206e7-fc90-453a-8f48-cfd7bf7abb5b",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "FunctionName": "Проверка настроек",
+      "Features": [
+        "47505de3-12e8-4c32-89bc-654e5eaefa9a",
+        "0433267b-0aa7-4c80-83a6-7c417efc8e29"
+      ]
+    },
+    {
+      "Id": "daf676d2-3c6d-4434-a16c-d20c24877e4c",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "FunctionName": "Проверка настроек",
+      "Features": [
+        "151b148c-6302-428f-aca5-a1c17b4a6c9c",
+        "023f154e-b2db-4795-8aa8-1006a5c3c5a8"
+      ]
+    },
+    {
+      "Id": "87431c91-d9db-4d58-a969-9da83a39fa8e",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "FunctionName": "Сброс настроек",
+      "Features": [
+        "68629d43-0957-4626-81f3-c2a6be8bcaab"
+      ]
+    },
+    {
+      "Id": "675a71ea-31de-41e2-8bad-0b2988a47938",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "FunctionName": "Ввод времени",
+      "Features": [
+        "87d7e20b-66ac-46d0-b943-89be25bda8f7",
+        "e4645fec-2bd9-47d4-aac0-b343cdca4ec9",
+        "ecb269f4-5dbb-483b-b869-05c7c2771d72"
+      ]
+    },
+    {
+      "Id": "027ee746-2b8e-4d16-99ca-4a37eec0fa08",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "FunctionName": "Вкл-Выкл помидор",
+      "Features": [
+        "70d9828f-0027-4706-b9e5-69c67d07b124"
+      ]
+    },
+    {
+      "Id": "8a46f738-9768-4db0-b6f4-1e15e941f230",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "FunctionName": "Таймер обновление",
+      "Features": [
+        "67a37ab9-8056-43cc-879e-4696789296a9"
+      ]
+    }
+  ],
+  "AnotherGraphStates": [
+    {
+      "Id": "d68de3c3-76f1-44ad-b457-a2cf22287566",
+      "GraphPath": "Main.graph",
+      "SwitchCase": "root",
+      "Alias": null,
+      "ContentId": "00000000-0000-0000-0000-000000000000",
+      "Features": []
+    }
+  ],
+  "MessageContents": [
+    {
+      "Id": "4636fbe7-09b2-4bf6-a763-9592ab6ee73f",
+      "Text": "Техника помидора (или Pomodoro) — это эффективный способ тайм-менеджмента. \r\n\r\n\r\nЕго суть в том, чтобы делить рабочее время на отрезки по 30 минут. 25 из них нужно уделять работе, а пять — отдыху.\r\n\r\nТекущие настройки:\r\n\r\nВремя работы: {Время работы}\r\nВремя отдыха: {Время отдыха}\r\nСтатус: {Статус помидора}",
+      "DisableWebPagePreview": false
+    },
+    {
+      "Id": "8fb1f799-721f-4734-b771-6897534c93b4",
+      "Text": "Техника помидора (или Pomodoro) — это эффективный способ тайм-менеджмента. Его суть в том, чтобы делить рабочее время на отрезки по 30 минут. 25 из них нужно уделять работе, а пять — отдыху. \r\n\r\nРазделяя время на получасовые отрезки, мозг понимает, что 25 минут для работы — не так уж много, особенно если после этого будет ещё пять для личных дел. Такая установка помогает сдвинуться с мёртвой точки и начать продуктивную работу.\r\n\r\nА ещё наш мозг умеет быстро привыкать к определенному жизненному ритму. Если часто работать по методу помидора, выработается самодисциплина и мотивация на достижение целей.",
+      "DisableWebPagePreview": false
+    },
+    {
+      "Id": "00c84023-1f95-4df9-94b2-4bb7e3100c98",
+      "Text": "Настройки",
+      "DisableWebPagePreview": false
+    },
+    {
+      "Id": "ed4f5caa-7d15-4d8a-8c0c-ef7eb5320b95",
+      "Text": "Введите время в минутах",
+      "DisableWebPagePreview": false
+    },
+    {
+      "Id": "dfd0c5de-5c62-443a-a63f-fdcf48bafeea",
+      "Text": "Введите время в минутах",
+      "DisableWebPagePreview": false
+    },
+    {
+      "Id": "8b09105b-3add-4eee-8a96-54ecc5d2b4db",
+      "Text": "Вы ввели некорректные данные. \r\nПопробуйте ещё раз. \r\n",
+      "DisableWebPagePreview": false
+    },
+    {
+      "Id": "13e5f612-451f-4c9b-b146-9ef5c83a1091",
+      "Text": "Возникли трудности. \r\nМне пришлось сбросить настройки.",
+      "DisableWebPagePreview": false
+    },
+    {
+      "Id": "7af6b44f-0f07-4b81-887d-4d40f84853b2",
+      "Text": "Время: {оставшиеся время}",
+      "DisableWebPagePreview": false
+    }
+  ],
+  "MediaCaptionContents": [],
+  "MediaWithoutCaptionContents": [],
+  "MediaGroupContents": [],
+  "AnswerButtonFeatures": [
+    {
+      "Id": "0da20773-51ac-47c4-a9c4-af471e6e14e4",
+      "Text": "Настройки",
+      "Arguments": null,
+      "StateId": "944b88c3-f857-477c-80b6-32add43ac6b6",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 1,
+      "Column": 0
+    },
+    {
+      "Id": "a5facfe8-e4ae-43a2-80fe-1e92cee94d50",
+      "Text": "Что это?",
+      "Arguments": null,
+      "StateId": "9a854b0a-6d83-49ba-988e-ed2a0321b157",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 2,
+      "Column": 0
+    },
+    {
+      "Id": "4dc55fd0-534c-4f8b-ba8e-cc648b9c1a50",
+      "Text": "Изменить время отдыха",
+      "Arguments": null,
+      "StateId": "34f9b464-fe17-4d4a-89bf-d9564d9e768f",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "ee3a39cd-326d-476f-bd7c-8b338491d735",
+      "Text": "Изменить время работы",
+      "Arguments": null,
+      "StateId": "789d1f3d-6869-4b03-8845-a8e5d7e3c4d6",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 1,
+      "Column": 0
+    },
+    {
+      "Id": "610ac16b-138c-4037-ac9c-1015c100b3d5",
+      "Text": "{Кнопка помидора}",
+      "Arguments": null,
+      "StateId": "027ee746-2b8e-4d16-99ca-4a37eec0fa08",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "5b97d350-6ec9-427d-b4bd-a51e25a45e46",
+      "Text": "Назад",
+      "Arguments": null,
+      "StateId": "944b88c3-f857-477c-80b6-32add43ac6b6",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "a662469c-6d18-4c3e-92a3-9ab4ea7c026a",
+      "Text": "Назад",
+      "Arguments": null,
+      "StateId": "388bc3e8-db22-4fb4-ab94-fabcadf5125f",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "dc2963c2-066a-4f58-86fd-e9a68595bf49",
+      "Text": "Назад",
+      "Arguments": null,
+      "StateId": "388bc3e8-db22-4fb4-ab94-fabcadf5125f",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 3,
+      "Column": 0
+    },
+    {
+      "Id": "823ba5b1-b7e9-4e58-8a28-6a552f713023",
+      "Text": "Назад",
+      "Arguments": null,
+      "StateId": "d68de3c3-76f1-44ad-b457-a2cf22287566",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 3,
+      "Column": 0
+    },
+    {
+      "Id": "5ae350ab-225d-4450-a9e7-7e6cc38c1ff0",
+      "Text": "Назад",
+      "Arguments": null,
+      "StateId": "87431c91-d9db-4d58-a969-9da83a39fa8e",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": false,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "0015966a-efa5-485a-b18f-6bfa52799616",
+      "Text": "Ввести еще раз",
+      "Arguments": null,
+      "StateId": "675a71ea-31de-41e2-8bad-0b2988a47938",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": false,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "0e36777f-58dc-4926-9dc8-eb3e95f70013",
+      "Text": "Далее",
+      "Arguments": null,
+      "StateId": "388bc3e8-db22-4fb4-ab94-fabcadf5125f",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "3fe7c1db-c675-4ee2-8c00-b381e8ac050c",
+      "Text": "Сбросить настройки",
+      "Arguments": null,
+      "StateId": "87431c91-d9db-4d58-a969-9da83a39fa8e",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": true,
+      "Row": 2,
+      "Column": 0
+    },
+    {
+      "Id": "f1c65ed6-e5d2-4bd2-9159-eb3f8975af5f",
+      "Text": "Остановить",
+      "Arguments": null,
+      "StateId": "00000000-0000-0000-0000-000000000000",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": false,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "fac0b961-7d3c-4b82-bf50-8dfa1a60c868",
+      "Text": "Отдых",
+      "Arguments": null,
+      "StateId": "00000000-0000-0000-0000-000000000000",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": false,
+      "Row": 0,
+      "Column": 0
+    },
+    {
+      "Id": "8836becd-3775-422b-a05c-da666c802d5c",
+      "Text": "Фоновый режим",
+      "Arguments": null,
+      "StateId": "00000000-0000-0000-0000-000000000000",
+      "Features": [],
+      "IsURL": false,
+      "IsPerpetual": false,
+      "UpdateMyMessage": false,
+      "Row": 0,
+      "Column": 0
+    }
+  ],
+  "ChangeVariableFeatures": [
+    {
+      "Id": "33fe197f-541c-45cb-8628-b98f62b73b31",
+      "DataKey": "Кнопка помидора",
+      "ChangeMode": 0,
+      "Expression": "Включить",
+      "StateId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Id": "4de56ee9-ecbf-4992-a660-ca060bda51b0",
+      "DataKey": "Время отдыха",
+      "ChangeMode": 0,
+      "Expression": "00:05",
+      "StateId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Id": "c21a55c1-5123-4c44-ba8d-d447b92f6f40",
+      "DataKey": "Время работы",
+      "ChangeMode": 0,
+      "Expression": "00:30",
+      "StateId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "Id": "6c10e856-287b-497b-860a-29002d079868",
+      "DataKey": "Статус помидора",
+      "ChangeMode": 0,
+      "Expression": "Выключен",
+      "StateId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "SwitchCases": [
+    {
+      "Id": "1763b977-d762-493e-afb1-6b8a78bcdd5d",
+      "Case": "root",
+      "StateId": "78d206e7-fc90-453a-8f48-cfd7bf7abb5b",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": true
+    },
+    {
+      "Id": "023f154e-b2db-4795-8aa8-1006a5c3c5a8",
+      "Case": "Да",
+      "StateId": "944b88c3-f857-477c-80b6-32add43ac6b6",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "151b148c-6302-428f-aca5-a1c17b4a6c9c",
+      "Case": "Нет",
+      "StateId": "27ceb3b4-f04a-4979-9f1e-68c36669ea05",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "47505de3-12e8-4c32-89bc-654e5eaefa9a",
+      "Case": "Да",
+      "StateId": "388bc3e8-db22-4fb4-ab94-fabcadf5125f",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": true
+    },
+    {
+      "Id": "ecb269f4-5dbb-483b-b869-05c7c2771d72",
+      "Case": "Обнуление",
+      "StateId": "a9718007-ca63-4cbc-bd71-a89bf4ef3d34",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "87d7e20b-66ac-46d0-b943-89be25bda8f7",
+      "Case": "Плохое время отдыха",
+      "StateId": "34f9b464-fe17-4d4a-89bf-d9564d9e768f",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "e4645fec-2bd9-47d4-aac0-b343cdca4ec9",
+      "Case": "Плохое время работы",
+      "StateId": "789d1f3d-6869-4b03-8845-a8e5d7e3c4d6",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "68629d43-0957-4626-81f3-c2a6be8bcaab",
+      "Case": "",
+      "StateId": "388bc3e8-db22-4fb4-ab94-fabcadf5125f",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "0433267b-0aa7-4c80-83a6-7c417efc8e29",
+      "Case": "Нет",
+      "StateId": "388bc3e8-db22-4fb4-ab94-fabcadf5125f",
+      "Features": [
+        "33fe197f-541c-45cb-8628-b98f62b73b31",
+        "4de56ee9-ecbf-4992-a660-ca060bda51b0",
+        "c21a55c1-5123-4c44-ba8d-d447b92f6f40",
+        "6c10e856-287b-497b-860a-29002d079868"
+      ],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "70d9828f-0027-4706-b9e5-69c67d07b124",
+      "Case": "Да",
+      "StateId": "1cc177a4-4806-4ed1-8dea-753e1484ce40",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": false
+    },
+    {
+      "Id": "67a37ab9-8056-43cc-879e-4696789296a9",
+      "Case": "Да",
+      "StateId": "1cc177a4-4806-4ed1-8dea-753e1484ce40",
+      "Features": [],
+      "IsPerpetual": false,
+      "UpdateMyMessage": true
+    }
+  ],
+  "TextRequestFeatures": [
+    {
+      "Id": "d0a17c27-1f3e-4ff1-9824-4806a32ae6c1",
+      "DataKey": "Время отдыха",
+      "StateId": "daf676d2-3c6d-4434-a16c-d20c24877e4c",
+      "Features": [],
+      "UpdateMyMessage": false,
+      "DeleteUserMessageAfterAnswer": false
+    },
+    {
+      "Id": "842250e4-4796-4a85-b769-235eb3dcc411",
+      "DataKey": "Время работы",
+      "StateId": "daf676d2-3c6d-4434-a16c-d20c24877e4c",
+      "Features": [],
+      "UpdateMyMessage": false,
+      "DeleteUserMessageAfterAnswer": false
+    }
+  ],
+  "ExpressionFeatures": [],
+  "WaitAndTranzitFeatures": [
+    {
+      "Id": "0ebc545a-62c9-4394-999d-8d189bc2767c",
+      "Delay": "00:00:00",
+      "EventKey": null,
+      "Arguments": null,
+      "StateId": "8a46f738-9768-4db0-b6f4-1e15e941f230",
+      "Features": [],
+      "UpdateMyMessage": false
+    }
+  ]
+}
